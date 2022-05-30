@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <style>
+        body {
+            height: 100%;
+
+            background-color: rgb(237, 253, 234);
+            text-align: center;
+            justify-content: center;
+            margin-top: 15%;
+            padding: 1px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            color: rgb(75, 2, 32);
+        }
+
+        #guessField {
+            background-color: rgb(180, 219, 173);
+            border-radius: 50px;
+            border: 0;
+            padding: 5px;
+            width: 50px;
+            text-align: center;
+        }
+
+        #submitButton {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            width: 30%;
+            height: 30px;
+            border: 0px;
+            border-radius: 8px;
+            background-color: rgb(245, 205, 217);
+            cursor: pointer;
+        }
+
+        footer {
+            padding-bottom: 30px;
+            justify-content: center;
+            display: flex;
+            font-family: ubuntu;
+            align-items: center;
+        }
+
+        @media(max-width: 768px) {
+            body {
+                /* height: 100%; */
+                /* padding-top: 20px; */
+                font-size: 30px;
+            }
+
+            #guessField {
+                padding: 10px;
+                width: 70px;
+            }
+
+            #submitButton {
+                
+                width: 70%;
+                height: 50px;
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Number Guessing Game</h1>
+    <p>Pick a # between 1 - 10</p>
+    <label>Enter a guess</label>
+
+    <input id="guessField"><br>
+    <input id="submitButton" type="submit">
+    <script src="number_guess.js"></script>
+    <footer>
+        <a href="https://github.com/darksitecoder">
+            <img src="https://img.icons8.com/material-outlined/34/000000/github.png" /></a>
+
+        <a href="https://www.linkedin.com/in/sumit-pal-darksitecoder/">
+            <img src="https://img.icons8.com/material-rounded/34/000000/linkedin--v1.png" /></a>
+
+        <a href="https://www.instagram.com/darksitecoder/"><img
+                src="https://img.icons8.com/material-rounded/34/000000/instagram-new.png" /></a>
+    </footer>
+</body>
+
+</html>
